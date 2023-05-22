@@ -1,0 +1,87 @@
+/*FONTS AND COLORS*/
+body{
+	background: #FFFFFF;
+	color: #6B7988;
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1,h2,h3{
+	font-family: 'Roboto Slab', serif;
+}
+h1{
+	color: #A958EE;
+	font-size: 35px;
+}
+h2{
+	color: #A958EE;
+	font-weight: lighter;
+	font-size: 25px;
+}
+a{
+	color: #A958EE;
+	text-decoration: none;
+	font-weight: bolder;
+	transition: color 0.3s ease;
+}
+a:hover{
+	color: lightblue;
+
+}
+.container{
+	width: 700px;
+	margin: 30px auto;
+}
+.box-white{
+	background: white;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0,0.1);
+	margin: 20px 0px;
+	text-align: center;
+	border-radius: 10px;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	border-radius: 10px;
+	background-color: #A958EE;
+	color: white;
+	padding: 13px;
+	transition: color 0.5s ease;
+	transition: background-color 0.5s ease;
+	margin-top: 5px;
+}
+.btn-blue:hover{
+	background-color: lightblue;
+	color: #A958EE;
+}
+.list-inline{
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 5px;
+}
+.list-inline i{
+	font-size: 35px;
+}
+#intro{
+	margin-bottom: 40px;
+}
+@media (max-width: 900px){
+	.container{
+		width: 700px;
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width: 300px;
+	}
+}
